@@ -33,3 +33,9 @@ JOIN payment ON fk_prod_id = prod_id
 JOIN shippingcompany ON fk_invoice_number = invoice_number
 JOIN shipping ON fk_company_id = company_id
 WHERE shipping.shipping_date BETWEEN "2022-05-30" AND "2022-06-05";
+
+
+
+date, company_name, invoice_number, prod name
+
+country name, username, prod anme, payment date
